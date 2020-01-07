@@ -1,0 +1,44 @@
+{
+  "name": "vue2-leaflet-heatmap",
+  "version": "0.1.0",
+  "description": "heatmap plugin for vue2-leaflet package",
+  "main": "dist/Vue2LeafletHeatap.js",
+  "scripts": {
+    "build": "vue build Vue2LeafletHeatmap.vue --prod --lib --config build.config.js",
+    "example": "vue build example.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:C00Lzero/vue2-leaflet-heatmap.git"
+  },
+  "keywords": [
+    "vue2",
+    "leaflet",
+    "heatmap"
+  ],
+  "author": "C00lzero",
+  "contributors": [
+    "Ahmet Özışık (https://github.com/aozisik)",
+    "Nader Toukabri (https://nader.tech)"
+  ],
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/C00Lzero/vue2-leaflet-heatmap/issues"
+  },
+  "homepage": "https://github.com/C00Lzero/vue2-leaflet-heatmap/",
+  "dependencies": {
+    "leaflet.heat": "^0.2.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.3.4"
+  },
+  "devDependencies": {
+    "leaflet": "^1.3.4",
+    "vue": "^2.5.17",
+    "vue2-leaflet": "^2.0.0",
+    "babel-preset-env": "^1.6.0",
+    "vue-cli": "~2.8.2",
+    "webpack": "^3.12.0",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
